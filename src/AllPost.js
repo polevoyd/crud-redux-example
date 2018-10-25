@@ -1,6 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import Post from './Post';
+import EditPost from './EditPost';
+
 
 class AllPost extends React.Component {
 
