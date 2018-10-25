@@ -10,7 +10,12 @@ class AllPost extends React.Component {
         return (
             <div>
                 <h1>All Posts</h1>
-                {this.props.posts.map((post) => <Post key={post.id} post={post} />)}
+                {this.props.posts.map((post) => (
+                    <div key={post.id}>
+                        {post.editing ? <EditPost post={post} key={post.id} /> :
+                            <Post key={post.id} post={post} />}
+                    </div>
+                ))}
             </div>
         );
     }

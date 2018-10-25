@@ -12,7 +12,7 @@ class EditPost extends React.Component {
             newTitle,
             newMessage
         }
-        this.props.dispatch({type:'EDIT_POST', id: this.props.post.id, data: data})
+        this.props.dispatch({type:'UPDATE', id: this.props.post.id, data: data})
     }
 
     render() {
@@ -24,6 +24,8 @@ class EditPost extends React.Component {
 
                     <textarea required type="text" rows="5" ref={(input) => this.getMessage = input}
                     defaultValue={this.props.post.message} cols="28" placeholder="Enter Post" />
+                
+                    <button>Update</button>
                 </form>
             </div>
         );
