@@ -13,6 +13,12 @@ class PostForm extends React.Component {
             message
         }
         console.log(data)
+        this.props.dispatch({
+            type:'ADD_POST',
+            data
+        })
+        this.getTitle.value = '';
+        this.getMessage.value = '';
     }
 
     render() {
