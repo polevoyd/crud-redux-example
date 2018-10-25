@@ -38,6 +38,7 @@ class PostForm extends React.Component {
 // connect() returns a function which takes in your current component 
 // as an argument and returns a new component with dispatch method as it’s prop. 
 
+// connect() passing state as props to a Component
 export default connect()(PostForm);
 
 // export default PostForm;
