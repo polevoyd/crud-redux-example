@@ -6,7 +6,7 @@
      margin: 0 auto;
      display: grid;
      
-     border: 1px solid black;
+     /* border: 1px solid black; */
      border-radius: 1em;
      max-width: 20em;
      max-height: 30em;
@@ -36,7 +36,7 @@
      width: 80%;
      height: 2em;
      border-radius: 5px;
-     font-size: em;
+     font-size: 1.5em;
      max-width: 20em;
 
  }
@@ -50,8 +50,9 @@
     margin: 0 auto;
  }
 
- input, textarea:focus {
-     outline: none;
-     border: none;
- }
-
+input:required, textarea:required {
+    box-shadow:none;
+    outline: none;
+    border: none;
+    resize: none;
+}
