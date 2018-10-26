@@ -1,7 +1,19 @@
  /* WRITE CSS  */
+ * { border: 1px solid orange; }
+
 
  .app {
+     margin: 0 auto;
+     display: grid;
+     
      border: 1px solid black;
+     border-radius: 1em;
      max-width: 20em;
      max-height: 30em;
  }
+
+ .app h1 {
+     text-align: center;
+ }
+
+ 
