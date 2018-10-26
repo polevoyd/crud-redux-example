@@ -1,1 +1,7 @@
  /* WRITE CSS  */
+
+ .app {
+     border: 1px solid black;
+     max-width: 20em;
+     max-height: 30em;
+ }
