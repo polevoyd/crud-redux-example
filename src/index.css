@@ -31,12 +31,12 @@
 
  .app textarea {
      display: block;
-     margin: 0 auto;
+     margin: 1em auto;
      padding: 0 1em 0 1em;
      width: 80%;
      height: 2em;
      border-radius: 5px;
-     font-size: 1em;
+     font-size: em;
      max-width: 20em;
 
  }
@@ -54,3 +54,4 @@
      outline: none;
      border: none;
  }
+
